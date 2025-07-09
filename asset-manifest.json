@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/1444NORTHCAROLINA/static/css/main.4f36fb00.css",
+    "main.js": "/1444NORTHCAROLINA/static/js/main.bd425fda.js",
+    "index.html": "/1444NORTHCAROLINA/index.html",
+    "main.4f36fb00.css.map": "/1444NORTHCAROLINA/static/css/main.4f36fb00.css.map",
+    "main.bd425fda.js.map": "/1444NORTHCAROLINA/static/js/main.bd425fda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f36fb00.css",
+    "static/js/main.bd425fda.js"
+  ]
+}
