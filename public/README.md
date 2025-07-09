@@ -49,13 +49,6 @@ package.json         # With GitHub Pages deploy scripts
    npm run deploy
    ```
 
----
-
-## Credentials (for EmailJS)
-
-- **SERVICE_ID:** `service_z3agaer`
-- **TEMPLATE_ID:** `g89zk3c`
-- **PUBLIC_KEY:** `CHomT4BXdlw93aWRy`
 
 ---
 
