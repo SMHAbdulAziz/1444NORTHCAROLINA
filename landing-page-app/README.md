@@ -57,6 +57,28 @@ landing-page-app
 - Click the submit button to send your details.
 - You will be redirected to the property tour page after submission.
 
+## GitHub Pages Deployment
+
+To deploy this app to GitHub Pages:
+
+1. Install gh-pages if you haven't already:
+   ```zsh
+   npm install --save gh-pages
+   ```
+2. Add the following to your `package.json`:
+   - A `homepage` field: `"homepage": "https://<your-github-username>.github.io/<your-repo-name>"`
+   - Scripts:
+     ```json
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+     ```
+3. Deploy:
+   ```zsh
+   npm run deploy
+   ```
+
+The app will be available at your GitHub Pages URL.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
