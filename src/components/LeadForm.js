@@ -22,10 +22,10 @@ function LeadForm() {
       return;
     }
     setError("");
-    // Map form fields to EmailJS template variables
+    // Map form fields to EmailJS template variables (matching template: {name}, {email}, {phone})
     const templateParams = {
-      from_name: form.name,
-      from_email: form.email,
+      name: form.name,
+      email: form.email,
       phone: form.phone,
     };
     emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
