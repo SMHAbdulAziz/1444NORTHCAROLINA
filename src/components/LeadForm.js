@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/main.css";
 
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyJXgsJ20NYGIlx6LZ57Ie2IaXI-om_KtYc-NZC3IAOMVyZgQyD3TZxXe4UrkmZLg8H/exec";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxgC_LtqgtMUhjh1MNRujbdn-XGPxBJzGY3OLBabjW78ZLzP_UaBk_bNfSOCue0Tr1f/exec";
 
 function LeadForm() {
   const [form, setForm] = useState({ name: "", email: "", phone: "" });
