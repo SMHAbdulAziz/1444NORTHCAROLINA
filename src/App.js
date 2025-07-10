@@ -1,7 +1,7 @@
 import React from "react";
 import LeadForm from "./components/LeadForm";
 import "./styles/main.css";
-import logo from "../public/Logo.png";
+import logo from "./Logo.png";
 
 function App() {
   return (
