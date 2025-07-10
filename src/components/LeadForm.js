@@ -22,7 +22,13 @@ function LeadForm() {
       return;
     }
     setError("");
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY)
+    // Map form fields to EmailJS template variables
+    const templateParams = {
+      from_name: form.name,
+      from_email: form.email,
+      phone: form.phone,
+    };
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
       .then(() => {
         setSubmitted(true);
         window.location.href = "https://www.propertypanorama.com/instaview/ntreis/20970679#tour";
@@ -59,7 +65,7 @@ function LeadForm() {
         required
       />
       {error && <div className="form-error">{error}</div>}
-      <button type="submit" className="submit-btn">Request Info / Tour</button>
+      <button type="submit" className="submit-btn">Continue to Virtual Tour</button>
     </form>
   );
 }
