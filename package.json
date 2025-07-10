@@ -5,8 +5,11 @@
   "homepage": "https://smhabdulaziz.github.io/1444NORTHCAROLINA/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "build": "^0.1.4",
+    "npm": "^11.4.2",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "run": "^1.5.0"
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",

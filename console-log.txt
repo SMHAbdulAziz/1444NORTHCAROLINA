@@ -1,0 +1,19 @@
+logo.png:1  Failed to load resource: the server responded with a status of 404 ()
+api.emailjs.com/api/v1.0/email/send:1  Failed to load resource: the server responded with a status of 400 ()
+1444NORTHCAROLINA/:1  Failed to load resource: the server responded with a status of 404 ()
+LeadForm.js:25  POST https://api.emailjs.com/api/v1.0/email/send 400 (Bad Request)
+(anonymous) @ sendPost.js:22
+i @ sendPost.js:4
+s @ send.js:22
+onSubmit @ LeadForm.js:25
+Fe @ react-dom.production.min.js:54
+Ve @ react-dom.production.min.js:54
+(anonymous) @ react-dom.production.min.js:55
+Ir @ react-dom.production.min.js:105
+jr @ react-dom.production.min.js:106
+(anonymous) @ react-dom.production.min.js:117
+ss @ react-dom.production.min.js:273
+Le @ react-dom.production.min.js:52
+Hr @ react-dom.production.min.js:109
+Kn @ react-dom.production.min.js:74
+Qn @ react-dom.production.min.js:73
