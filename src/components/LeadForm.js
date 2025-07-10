@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import "../styles/main.css";
 
 const SERVICE_ID = "service_z3agaer";
-const TEMPLATE_ID = "g89zk3c";
+const TEMPLATE_ID = "template_qkd4y43";
 const PUBLIC_KEY = "CHomT4BXdlw93aWRy";
 
 function LeadForm() {
