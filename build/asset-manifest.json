@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/1444NORTHCAROLINA/static/css/main.e13f4a71.css",
-    "main.js": "/1444NORTHCAROLINA/static/js/main.bb79f6ce.js",
+    "main.js": "/1444NORTHCAROLINA/static/js/main.24bc2264.js",
     "static/media/Logo.png": "/1444NORTHCAROLINA/static/media/Logo.8d8b5614477fecc2e852.png",
     "index.html": "/1444NORTHCAROLINA/index.html",
     "main.e13f4a71.css.map": "/1444NORTHCAROLINA/static/css/main.e13f4a71.css.map",
-    "main.bb79f6ce.js.map": "/1444NORTHCAROLINA/static/js/main.bb79f6ce.js.map"
+    "main.24bc2264.js.map": "/1444NORTHCAROLINA/static/js/main.24bc2264.js.map"
   },
   "entrypoints": [
     "static/css/main.e13f4a71.css",
-    "static/js/main.bb79f6ce.js"
+    "static/js/main.24bc2264.js"
   ]
 }
